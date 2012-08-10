@@ -1,13 +1,13 @@
-# revision 25850
+# revision 26477
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-small
-Version:	20120413
+Version:	20120810
 Release:	1
-Summary:	small scheme (essentials, xetex, recommended packages)
+Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
