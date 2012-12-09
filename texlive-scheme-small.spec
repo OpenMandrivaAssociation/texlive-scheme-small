@@ -57,3 +57,15 @@ hyphenations, and some recommended packages to scheme-basic.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120810-1
++ Revision: 813995
+- Update to latest release.
+
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120413-1
++ Revision: 790898
+- Import texlive-scheme-small
+- Import texlive-scheme-small
+
