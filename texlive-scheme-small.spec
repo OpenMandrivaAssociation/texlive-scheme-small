@@ -1,11 +1,11 @@
-# revision 26477
+# revision 30937
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-small
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
@@ -27,19 +27,36 @@ Requires:	texlive-revtex
 Requires:	texlive-synctex
 Requires:	texlive-times
 Requires:	texlive-tipa
+Requires:	texlive-zapfding
+Requires:	texlive-babel-basque
 Requires:	texlive-hyphen-basque
+Requires:	texlive-babel-czech
+Requires:	texlive-hyphen-czech
+Requires:	texlive-babel-danish
 Requires:	texlive-hyphen-danish
+Requires:	texlive-babel-dutch
 Requires:	texlive-hyphen-dutch
+Requires:	texlive-babel-english
 Requires:	texlive-hyphen-english
+Requires:	texlive-babel-finnish
 Requires:	texlive-hyphen-finnish
+Requires:	texlive-babel-french
 Requires:	texlive-hyphen-french
+Requires:	texlive-babel-german
 Requires:	texlive-hyphen-german
+Requires:	texlive-babel-hungarian
 Requires:	texlive-hyphen-hungarian
+Requires:	texlive-babel-italian
 Requires:	texlive-hyphen-italian
+Requires:	texlive-babel-norsk
 Requires:	texlive-hyphen-norwegian
+Requires:	texlive-babel-polish
 Requires:	texlive-hyphen-polish
+Requires:	texlive-babel-portuges
 Requires:	texlive-hyphen-portuguese
+Requires:	texlive-babel-spanish
 Requires:	texlive-hyphen-spanish
+Requires:	texlive-babel-swedish
 Requires:	texlive-hyphen-swedish
 
 %description
@@ -57,15 +74,3 @@ hyphenations, and some recommended packages to scheme-basic.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120810-1
-+ Revision: 813995
-- Update to latest release.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120413-1
-+ Revision: 790898
-- Import texlive-scheme-small
-- Import texlive-scheme-small
-
