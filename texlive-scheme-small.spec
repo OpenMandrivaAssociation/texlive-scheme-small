@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-scheme-small
 Version:	20131013
-Release:	8
+Release:	9
 Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
 URL:		http://tug.org/texlive
