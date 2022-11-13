@@ -1,17 +1,11 @@
-# revision 30937
-# category Scheme
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-scheme-small
-Version:	20190228
+Version:	54191
 Release:	1
 Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-small.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-small.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -69,7 +63,7 @@ hyphenations, and some recommended packages to scheme-basic.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
