@@ -1,6 +1,6 @@
 Name:		texlive-scheme-small
-Version:	54191
-Release:	2
+Version:	71080
+Release:	1
 Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
 URL:		http://tug.org/texlive
