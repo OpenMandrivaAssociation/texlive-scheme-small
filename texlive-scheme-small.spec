@@ -3,7 +3,7 @@ Version:	71080
 Release:	1
 Summary:	small scheme (basic + xetex, metapost, a few languages)
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-small.r%{version}.tar.xz
 BuildArch:	noarch
