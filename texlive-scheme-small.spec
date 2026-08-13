@@ -1,5 +1,5 @@
 %global tl_name scheme-small
-%global tl_revision 78733
+%global tl_revision 79943
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -49,7 +49,6 @@ Requires:	texlive(hyphen-polish)
 Requires:	texlive(hyphen-portuguese)
 Requires:	texlive(hyphen-spanish)
 Requires:	texlive(hyphen-swedish)
-Requires:	texlive(l3backend-dev)
 Requires:	texlive(l3kernel-dev)
 Requires:	texlive(latex-amsmath-dev)
 Requires:	texlive(latex-base-dev)
@@ -79,7 +78,7 @@ Requires:	texlive(ulem)
 Requires:	texlive(unicode-math)
 Requires:	texlive(upquote)
 Requires:	texlive(zapfding)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 This is a small TeX Live scheme, corresponding to MacTeX's BasicTeX
