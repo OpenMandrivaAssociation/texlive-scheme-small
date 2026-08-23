@@ -71,7 +71,7 @@ Requires:	texlive(revtex)
 Requires:	texlive(synctex)
 Requires:	texlive(tagpdf)
 Requires:	texlive(tex4ebook)
-Requires:	tex4ht
+Requires:	texlive(tex4ht)
 Requires:	texlive(times)
 Requires:	texlive(tipa)
 Requires:	texlive(ulem)
